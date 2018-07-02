@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class TestOne {
 	
 	@Test
-	public void verifyTest() throws Exception{
+	public void vrifyTest() throws Exception{
 		System.out.println("Test");
 	}
 
