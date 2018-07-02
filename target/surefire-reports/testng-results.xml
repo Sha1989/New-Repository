@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27" started-at="2018-07-01T11:50:25Z" finished-at="2018-07-01T11:50:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27" started-at="2018-07-01T11:50:25Z" finished-at="2018-07-01T11:50:25Z">
+      <class name="com.dummy.TestOne">
+        <test-method status="PASS" signature="verifyTest()[pri:0, instance:com.dummy.TestOne@511baa65]" name="verifyTest" duration-ms="1" started-at="2018-07-01T17:20:25Z" finished-at="2018-07-01T17:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest -->
+      </class> <!-- com.dummy.TestOne -->
+      <class name="com.dummy.TestTwo">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.dummy.TestTwo@96532d6]" name="startReport" is-config="true" duration-ms="322" started-at="2018-07-01T17:20:24Z" finished-at="2018-07-01T17:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="verifysum()[pri:0, instance:com.dummy.TestTwo@96532d6]" name="verifysum" duration-ms="7" started-at="2018-07-01T17:20:25Z" finished-at="2018-07-01T17:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysum -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.dummy.TestTwo@96532d6]" name="getResult" is-config="true" duration-ms="3" started-at="2018-07-01T17:20:25Z" finished-at="2018-07-01T17:20:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifysum status=SUCCESS method=TestTwo.verifysum()[pri:0, instance:com.dummy.TestTwo@96532d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.dummy.TestTwo@96532d6]" name="endReport" is-config="true" duration-ms="554" started-at="2018-07-01T17:20:25Z" finished-at="2018-07-01T17:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.dummy.TestTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
